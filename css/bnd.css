@@ -1,0 +1,159 @@
+/* MAIN  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1289px;
+    width: 100%;
+    margin: auto;
+}
+
+/* CONTAINET1  */
+
+.container1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ctn1-text{
+    margin: 50px 0 50px 0;
+    display: flex;
+}
+.ctn1-text div{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 4px solid rgba(6, 183, 153, 0.916);
+    
+}
+.ctn1-main{
+    display: flex;
+    gap: 20px;
+
+}
+.ctn1-img img{
+    width: 600px;
+    height: 500px;
+}
+
+.ctn1-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ctn1-content div:nth-child(1){
+    font-size: 49px;
+    font-weight: 500;
+}
+.ctn1-content div:nth-child(2){
+    font-size: 27px;
+}
+p{
+    font-size: 16px;
+}
+/* CONTAINET1 END */
+
+
+
+/* CONTAINET2 */
+
+.container2{
+    margin-top: 100px;
+    border-top: 2px solid;
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+
+}
+
+.ctn2-content{
+    display: flex;
+    flex-direction: column;
+    
+   gap: 20px;
+
+}
+.ctn2-content div:nth-child(1){
+    font-size: 49px;
+    font-weight: 500;
+}
+.ctn2-img img{
+    height: 600px;
+}
+.ctn2-content div:nth-child(3){
+    font-size: 27px;
+}
+
+/* CONTAINET2 END */
+
+
+
+/* MAIN END */
+
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 1289px){
+    main{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .ctn1-main{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .ctn2-content div:nth-child(1) {
+        font-size: 37px;
+    }
+    .ctn2-content div:nth-child(3) {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .container1 {
+        margin-top: 50px;
+    }
+    
+    .ctn1-img img {
+        width: 400px;
+        height: 300px;
+    }
+    .ctn1-content div:nth-child(1) {
+        font-size: 30px;
+    }
+    .ctn2-content div:nth-child(1) {
+        font-size: 30px;
+    }
+    .ctn2-content div:nth-child(3) {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .ctn1-img img {
+        width: 300px;
+        height: 250px;
+    }
+    
+    .ctn2-img img {
+        height: 400px;
+    }
+}
+/* MEDIA QUERY END */

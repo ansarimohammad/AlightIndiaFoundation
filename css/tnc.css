@@ -1,0 +1,90 @@
+
+
+
+/* MAIN  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* container1  */
+
+
+.container1{
+    max-width: 1289px;
+    margin: 150px auto 50px auto;
+    display: flex;
+    justify-content: center;  
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.container1 div{
+    border-bottom: 4px solid rgba(6, 183, 153, 0.916);
+    
+}
+
+
+/* container1 END */
+/* container2 */
+
+.container2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 1289px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 50px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .25);
+}
+
+.container2 p{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.container2 ul li{
+    font-size: 1.6rem;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.container2 h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+} 
+
+.container2 h3{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+/* container2 END */
+
+/* MAIN END */
+
+
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 1289px){
+    
+    .container1 {
+        width: 90%;
+    }
+    .container2 {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .container1 {
+        font-size: 2.5rem;
+    }
+}
+/* MEDIA END  */

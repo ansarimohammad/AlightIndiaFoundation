@@ -1,0 +1,71 @@
+/* CONTAINER4 */
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: max-content;
+    min-width: 1200px;
+}
+
+.container4-main{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  
+}
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  /* margin: 0 10px; */
+  border: 1px solid gray;
+  background: #fff;
+  height: 70vh;
+}
+.slider .card .img{
+  width: 100%;
+  padding: 20px;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .content p{
+    font-size: 14px;
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn a{
+  color: #e74c3c;
+  font-size: 14px;
+  padding: 5px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+
+/* CONTAINER4 END */
