@@ -648,6 +648,20 @@ main{
 
 /* MEDIA QUERY  */
 @media screen and (max-width: 1289px){
+
+
+  /* container1  */
+
+  .slider{
+    height: 100%;
+  }
+  .slide img {
+    height: 100%;
+  }
+
+  /* container1 end */
+
+
   /* container5 */
 
   .container5 {
@@ -706,16 +720,7 @@ main{
   html{
     font-size: 55%;
   }
-  /* container1  */
-
-  .slider{
-    height: 100%;
-  }
-  .slide img {
-    height: 100%;
-  }
-
-  /* container1 end */
+ 
 
 
   /* container3*/

@@ -153,8 +153,6 @@ q {font-style: italic;}
   .container2-main{
     width: 90%;
   }
-  
-
  
 }
 
@@ -162,8 +160,7 @@ q {font-style: italic;}
   .container1 {
     margin: 100px 0 30px 0;
   }
-  
-  
+ 
 }
 
 @media screen and (max-width: 600px){

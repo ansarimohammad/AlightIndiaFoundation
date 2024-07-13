@@ -101,6 +101,10 @@ p{
     main{
         width: 90%;
     }
+    .container1 {
+        margin-top: 50px;
+    }
+    
 }
 
 @media screen and (max-width: 998px){
@@ -126,9 +130,6 @@ p{
 
 @media screen and (max-width: 600px){
 
-    .container1 {
-        margin-top: 50px;
-    }
     
     .ctn1-img img {
         width: 400px;

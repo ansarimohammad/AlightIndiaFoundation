@@ -21,7 +21,7 @@ main{
 }
 .quote{
     position: absolute;
-    font-size: 72px;
+    font-size: 7.2rem;
     font-weight: bold;
     color: yellow;
     top: 60%;
@@ -34,7 +34,7 @@ main{
 /* CONTAINER MAIN  */
 
 .container2-main{
-    max-width: 1200px;
+    max-width: 1289px;
     width: 100%;
     margin: auto;
 }
@@ -44,19 +44,19 @@ main{
 /* container2 */
 
 .container2, .container3,.container4,.container5,.container6{
-    font-size: 18px;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     gap: 20px;
     margin-top: 50px;
     
 }
 .boxes{
     width: 100%;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@ main{
     height: 80px;
     width: 100%;
     background-color: yellow;
-    padding: 20px;
+    padding: 2rem;
 }
 .container2 .box:nth-child(1){
     background-color: green;
@@ -123,3 +123,54 @@ main{
 
 
 /* MAIN END */
+
+
+
+
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 1289px){
+    .container2-main{
+        width: 90%;
+    }
+
+    .boxes {
+        font-size: 1.5rem;
+    }
+    .quote {
+        font-size: 6.2rem;
+    }
+  
+}
+
+@media screen and (max-width: 998px){
+    
+}
+
+
+@media screen and (max-width: 800px){
+    .boxes {
+        flex-direction: column;
+    }
+    .box{
+        height: 70px;
+    }
+
+    .quote {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container1 img {
+        height: 40vh;
+    }
+    .quote {
+        top: 35%;
+    }
+    .container2{
+        margin-top: 0;
+    }
+    
+}
+  /* MEDIA END  */
