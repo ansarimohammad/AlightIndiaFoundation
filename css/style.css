@@ -763,6 +763,11 @@ main{
 
 @media screen and (max-width: 600px){
 
+  /* Container2 */
+  .ct2-text {
+    font-size: 4.2rem;
+  }
+  /* Container2 end  */
 
   .slide img {
     height: 60%;
