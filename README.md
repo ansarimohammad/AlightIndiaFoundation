@@ -19,9 +19,9 @@ The project is designed to be:
 
 ## 🧩 Tech Stack
 
-- **HTML5** – Structure and content  
-- **CSS3** – Styling and responsive layout  
-- **JavaScript (Vanilla)** – Interactivity and dynamic behavior  
+- **HTML** – Structure and content  
+- **CSS** – Styling and responsive layout  
+- **JavaScript** – Interactivity and dynamic behavior  
 
 No external frameworks required.
 
