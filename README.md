@@ -1,2 +1,28 @@
-# AlightIndiaFoundation
-Alight India Foundation is an NGO dedicated to improving lives in India through education, healthcare, women empowerment, sustainable livelihoods, environmental conservation, and disaster relief. We aim to create a brighter, equitable future for all. Contribute via issues, pull requests, or discussions to support our cause.
+# 🌱 Alight India Foundation
+
+**Alight India Foundation** is a non-governmental organization (NGO) dedicated to improving lives across India through **education, healthcare, women empowerment, sustainable livelihoods, environmental conservation, and disaster relief**.
+
+Our mission is to build a brighter, inclusive, and equitable future for all.
+
+---
+
+## 🚀 Project Overview
+
+This repository contains a simple **HTML, CSS, and JavaScript** based website that represents the mission, vision, and initiatives of Alight India Foundation.
+
+The project is designed to be:
+- Lightweight and fast
+- Easy to contribute to
+- Beginner-friendly for open-source contributors
+
+---
+
+## 🧩 Tech Stack
+
+- **HTML5** – Structure and content  
+- **CSS3** – Styling and responsive layout  
+- **JavaScript (Vanilla)** – Interactivity and dynamic behavior  
+
+No external frameworks required.
+
+---
